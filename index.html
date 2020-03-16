@@ -1,16 +1,79 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+			<meta charset="utf-8" />
+		    <meta http-equiv="x-ua-compatible" content="ie=edge">
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<title>Bootstrap - Newsweek</title>
-			<!-- CSS links -->
+			<!-- Reset links -->
 			<link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
+			<!-- Foundation links -->
+			<link rel="stylesheet" href="stylesheets/app.css">
+			<!-- CSS links -->
 			<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-			<!-- Bootstrap link CSS -->
-			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		</head>
 	<body>
-
+		<header>
+			<section class="grid-x">
+				<h6 class="clip">Header of page with weather and account log in.</h6>
+				<article class="large-4 cells">
+					<h2>Newsweek</h2>
+					<span><i></i>20° Puerto Vallarta, MX</span>
+					<data>Mon, Mar 16, 2020</data>
+				</article>
+				<figure class="large-4 cells">
+					<img src="./img/logo.png">
+				</figure>
+				<section class="large-4 cells">
+					<h6 class="clip">Log into your account</h6>
+					<button class="button">Sign In</button>
+					<button class="button">Subscribe > </button>
+				</section>
+			</section>	
+			<section class="grid-x">
+				<nav class="large-8 cells">
+					<ul class="menu expand">
+						<li>
+							<a href="https://www.newsweek.com/us">U.S.</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/world">World</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/business">Business</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/tech-science">Tech & Science</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/culture">Culture</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/newsgeek">Newsgeek</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/sports">Sports</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/health">Health</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/the-debate">The Debate</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/vantage">Vantage</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/weather">Weather</a>
+						</li>
+					</ul>
+				</nav>
+				<form class="large-2">
+				  <input type="text" class="nav-link search-bar col-lg-5" placeholder="Search">
+				</form>
+			</section>
+		</header>
 	</body>
-	<!-- Bootstrap link JS -->
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<!-- Foundation links JS -->
+	<script src="js/app.js"></script>
 </html>
