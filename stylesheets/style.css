@@ -19,3 +19,15 @@
 
 .footer-subscribe {
 	height: 100%;
+}
+
+.all-access {
+	background-repeat: no-repeat;
+	background-size: 70% 70%;
+	background-position: 0 0;
+	background-image: url('https://d.newsweek.com/en/full/1572460/march-13-2020.jpg?w=170&q=95&f=52ec8e410e9337459df2777847b09b11');
+}
+
+.all-access-cover {
+	padding-left: 30%; padding-top: 24%;
+}
