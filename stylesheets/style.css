@@ -1,5 +1,13 @@
 /* Layout start */
 
+main {
+	background-color: #fff;
+}
+
+.container {
+	max-width: 1310px;
+} 
+
 .clip {
 	clip: rect(1px, 1px, 1px, 1px);
 	clip-path: inset(50%);
@@ -12,7 +20,9 @@
 }
 
 .nav-link {
-	padding: 0.3rem;
+	padding: 0.2rem;
+	font-weight: 600;
+	color: #000;
 }
 
 .square-img {
@@ -23,20 +33,12 @@
 .user-img {
 	width: 55px;
 	height: 55px;
-}
-
-.footer-form {
-	height: 247px; width: 190px;
-}
-
-.footer-subscribe {
-	height: 245px;
-	width: 190px;
+	margin-top: -15px;
 }
 
 .all-access {
 	background-repeat: no-repeat;
-	background-size: 55% 65%;
+	background-size: 55% 75%;
 	background-position: 0 0;
 	background-image: url('https://d.newsweek.com/en/full/1572460/march-13-2020.jpg?w=170&q=95&f=52ec8e410e9337459df2777847b09b11');
 }
@@ -45,4 +47,302 @@
 	padding-left: 30%; padding-top: 24%;
 }
 
+.letter {
+	border: 1px solid #C2C2C2;
+}
+
 /* Layout end */
+
+
+/* style */
+
+body {
+	background-color: #f4f5f6;
+}
+
+.row {
+	background-color: #fff;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.nav-menu {
+	margin-top:-15px;
+	background-color: #fff;
+	border-bottom: 3px solid #f4f5f6;
+}
+
+span img {
+	height: 30px;
+}
+
+.weather {
+	color: white;
+}
+
+.button {
+	background-color: #f72210;
+	border:1px solid #f72210;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+}
+
+.hollow {
+	background-color: #fff;
+	color: #f72210;
+}
+
+.site-map .nav:nth-child(1) .nav-item:nth-child(1) {
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	line-height: 0.8rem;
+}
+
+.nav-item {
+	border-left: 1px solid #C2C2C2;
+	border-right: 1px solid #C2C2C2;
+	line-height: 0.8rem;
+}
+
+.triangle {
+	height: 0;
+	width: 0;
+	border-top: 17px solid #f72210;
+	border-left: 17px solid #fff;
+	border-bottom: 17px solid #fff;
+}
+
+.author span {
+	font-weight: 100;
+	color: #000;
+}
+
+.author {
+	color: #555;
+	font-weight: 600;
+}
+
+.debate .list-item:nth-child(2) {
+	border-top: 3px solid #f72210;
+}
+
+.debate .list-item {
+	border-top: 3px solid #1c87fb;
+}
+
+.debate-author {
+	border-top: 6px solid #d9d9d9;
+	border-style: double;
+}
+
+input {
+	margin-top: 2%;
+	padding-top: 1%;
+	border:1px solid transparent;
+	background-image: url("https://g.newsweek.com/www/images/icon-search-glass.svg");
+	background-repeat: no-repeat;
+	background-position: 90% 60%;
+}
+
+.middle-sec .list-item {
+	border-top: #eee solid 1px;
+	border-bottom: #eee solid 1px;
+	padding-top: 3%;
+	
+}
+
+.signup-box {
+	background-color: #f4f5f6;
+}
+
+.signup-box label h4 {
+	color: #555;
+	width: 60%;
+	font-weight: 600;
+}
+
+.sec .icon-n {
+	height: 85%;
+	width: 35px;
+}
+
+.icon-n {
+	height: 50%;
+	background-color: #f72210;
+}
+
+.icon-n img {
+	height: 90%;
+	width: 25px;
+}
+
+.btn-secondary {
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+}
+
+.sec-heading h4 {
+	font-weight: 600;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+h6 {
+	font-weight: 600;
+	color: #a0a0a0;
+	font-size: 1rem;
+}
+
+h2 {
+	font-weight: 600;
+	color: #000;
+	font-size: 1.4rem;
+}
+
+h3 {
+	font-weight: 600;
+	color: #000;
+	font-size: 0.9rem;
+}
+
+h4 {
+	font-weight: 400;
+	color: #272727;
+	font-size: 1.2rem;
+}
+
+.red {
+	color: #f72210;
+}
+.mag h2 {
+	font-size: 1rem;
+}
+
+.category span {
+	background-color: #f72210;
+	color: #fff;
+	font-weight: 600;
+	padding-left: 5px;
+
+}
+
+.category a {
+	background-color: #fff;
+	color: #f72210;
+	font-weight: 600;
+	padding: 0 5px;
+	margin-left: 5px;
+}
+
+.btn-see-all:hover {
+	background-color: #f4f5f6;
+}
+
+h2 a {
+	color: #000;
+	text-decoration: none;
+	
+}
+
+h2 a:hover {
+	color: #000;
+	text-decoration: underline;
+  	text-decoration-color: #f72210;
+	
+}
+
+a h2 {
+	color: #000;
+	text-decoration: none;
+	
+}
+
+a h2:hover {
+	color: #000;
+	text-decoration: underline;
+  	text-decoration-color: #f72210;
+	
+}
+
+a h3 {
+	color: #000;
+	text-decoration: none;
+	
+}
+
+a h3:hover {
+	color: #000;
+	text-decoration: underline;
+  	text-decoration-color: #f72210;
+	
+}
+
+.section-list a h6{
+	color: #000;
+}
+
+.section-list a h6:hover {
+	color: #f72210;
+}
+
+.section-list a:hover {
+	color: #f72210;
+	text-decoration: none;
+}
+
+.left-sec a h3{
+	color: #000;
+}
+
+.left-sec a h3:hover {
+	color: #f72210;
+	text-decoration: none;
+}
+
+.left-sec a:hover {
+	color: #f72210;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f72210;
+}
+
+fieldset a {
+	color: #6c757d;
+}
+
+.sub {
+	background-color: #f4f5f6;
+}
+
+footer {
+	border-top: 4px solid #f4f5f6;
+}
+
+footer svg {
+	fill: #f72210;
+}
+
+.fab {
+	font-size: 1.7rem;
+	color: #666666;
+}
+
+.site-map span {
+	font-weight: 600;
+}
+
+.site-map .nav-link {
+	font-weight: 200;
+}
+
+header .row:nth-child(1) {
+	background-color: #f72210;
+}
+
+.logo-svg {
+	fill: white;
+}

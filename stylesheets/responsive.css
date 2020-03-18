@@ -1,0 +1,10 @@
+@media only screen and (min-width: 900px) {
+  .w-50 svg {
+    display: none;
+  }
+
+  .footer-subscribe {
+	height: 245px;
+	width: 190px;
+  }
+}
