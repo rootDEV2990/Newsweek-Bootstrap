@@ -17,6 +17,12 @@
   .logo-md figure {
   	width: 50%;
   }
+  .disp-none {
+		display: none;
+	}
+	.resp-align {
+	 	text-align: right;
+	 }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -57,11 +63,60 @@
 	    height: 100%;
 	    width: 200px;
 	}
+	.disp-none {
+		display: none;
+	}
+	.resp-align {
+	 	text-align: right;
+	 }
+
 
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { ... }
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+	.order-1 {
+		order: 0;
+	}
+	.order-2 {
+		order: 1;
+	}
+	.order-3 {
+		order: 2;
+	}
+	.disp-none-sm {
+		display: none;
+	}
+	form {
+	 	display: flex;
+	 	justify-content: center;
+	 	width: 100%;
+	 }
+	 fieldset {
+	 	width: 35%;
+	 }
+	 .justify-content-sm-center article {
+	 	text-align: center;
+	 }
+	 .letter article {
+	 	text-align: center;
+	 }
+
+	 .letter figure {
+	 	background-size: 100% 220%;
+	 	background-position: center;
+	 	background-repeat: no-repeat;
+	 	height: 200px;
+	 	background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+	 }
+
+	 .letter img {
+	 	width: 100%;
+	 }
+	 .resp-align {
+	 	text-align: left;
+	 }
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query since this is the default in Bootstrap*/
