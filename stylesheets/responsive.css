@@ -1,5 +1,9 @@
-@media only screen and (min-width: 900px) {
-  .w-50 svg {
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .logo-md svg {
     display: none;
   }
 
@@ -7,4 +11,57 @@
 	height: 245px;
 	width: 190px;
   }
+  .align-items-responsive {
+		align-items: flex-end;
+	}
+  .logo-md figure {
+  	width: 50%;
+  }
 }
+
+/* Medium devices (tablets, 768px and up) */
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	.container {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.logo-svg {
+		height: 20px;
+	}
+
+	.logo-md {
+		display: flex;
+	}
+	.hidden-md {
+		display: none;
+	}
+	.align-items-responsive {
+		align-items: flex-start;
+	}
+	.logo-md figure {
+	  	width: 35%;
+	 }
+	 .pd-0-md {
+	 	padding: 0;
+	 }
+	 form {
+	 	display: flex;
+	 	justify-content: center;
+	 	width: 100%;
+	 }
+	 fieldset {
+	 	width: 35%;
+	 }
+	 .footer-subscribe {
+	    height: 100%;
+	    width: 200px;
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap*/
