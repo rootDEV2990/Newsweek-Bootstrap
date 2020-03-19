@@ -1,285 +1,328 @@
-@media only screen and (min-width: 997px) and (max-width: 1920px){
+@media only screen and (min-width: 997px) and (max-width: 1920px) {
   .logo-md svg {
     display: none;
   }
 
   .footer-subscribe {
-	height: 245px;
-	width: 190px;
+    height: 245px;
+    width: 190px;
   }
+
   .align-items-responsive {
-		align-items: flex-end;
-	}
-  .logo-md figure {
-  	width: 50%;
+    align-items: flex-end;
   }
+
+  .logo-md figure {
+    width: 50%;
+  }
+
   .disp-none {
-		display: none;
-	}
-	.resp-align {
-	 	text-align: right;
-	 }
-	 .letter img {
-	 	height: 215px;
-	 }
-	 .lg-rows {
-	 	display: grid;
-	 	grid-template-columns: repeat(2, 1fr);
-	 }
-	 .sub {
-	 	height: 216px;
-	 }
-	 .transparent {
-	 	display: none;
-	 }
-	
+    display: none;
+  }
+
+  .resp-align {
+    text-align: right;
+  }
+
+  .letter img {
+    height: 215px;
+  }
+
+  .lg-rows {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sub {
+    height: 216px;
+  }
+
+  .transparent {
+    display: none;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 
 @media only screen and (max-width: 997px) and (min-width: 768px) {
-	.container {
-		padding-right: 0;
-		padding-left: 0;
-	}
-	.logo-svg {
-		height: 20px;
-	}
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
 
-	.logo-md {
-		display: flex;
-	}
-	.hidden-md {
-		display: none;
-	}
-	.align-items-responsive {
-		align-items: flex-start;
-	}
-	.logo-md figure {
-	  	width: 35%;
-	 }
-	 .pd-0-md {
-	 	padding: 0;
-	 }
-	 form {
-	 	display: flex;
-	 	justify-content: center;
-	 	width: 100%;
-	 }
-	 fieldset {
-	 	width: 35%;
-	 }
-	 .footer-subscribe {
-	    height: 100%;
-	    width: 200px;
-	}
-	.disp-none {
-		display: none;
-	}
-	.disp-none-x {
-		display: none;
-	}
-	.resp-align {
-	 	text-align: right;
-	 }
-	 .nav-menu {
-	 	display: none;
-	 }
-	 .icon-n-2 {
-    	height: 35px;
-	}
+  .logo-svg {
+    height: 20px;
+  }
 
+  .logo-md {
+    display: flex;
+  }
 
+  .hidden-md {
+    display: none;
+  }
 
+  .align-items-responsive {
+    align-items: flex-start;
+  }
 
+  .logo-md figure {
+    width: 35%;
+  }
+
+  .pd-0-md {
+    padding: 0;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  fieldset {
+    width: 35%;
+  }
+
+  .footer-subscribe {
+    height: 100%;
+    width: 200px;
+  }
+
+  .disp-none {
+    display: none;
+  }
+
+  .disp-none-x {
+    display: none;
+  }
+
+  .resp-align {
+    text-align: right;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .icon-n-2 {
+    height: 35px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (max-width: 767px) and (min-width: 576px) {
-	.order-main {
-		order: 0;
-	}
-	.order-left {
-		order: 1;
-	}
-	.order-right {
-		order: 2;
-	}
-	.disp-none-sm {
-		display: none;
-	}
-	form {
-	 	display: flex;
-	 	justify-content: center;
-	 	width: 100%;
-	 }
-	 fieldset {
-	 	width: 35%;
-	 }
-	 .justify-content-sm-center article {
-	 	text-align: center;
-	 }
-	 .letter article {
-	 	text-align: center;
-	 }
+  .order-main {
+    order: 0;
+  }
 
-	 .letter figure {
-	 	background-size: 100% 220%;
-	 	background-position: center;
-	 	background-repeat: no-repeat;
-	 	height: 200px;
-	 	background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
-	 }
+  .order-left {
+    order: 1;
+  }
 
-	 .letter img {
-	 	width: 100%;
-	 }
-	 .resp-align {
-	 	text-align: left;
-	 }
-	 .xs-list {
-	 	display: flex;
-	 }
-	 .nav-menu {
-	 	display: none;
-	 }
-	 .logo-svg {
+  .order-right {
+    order: 2;
+  }
+
+  .disp-none-sm {
+    display: none;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  fieldset {
+    width: 35%;
+  }
+
+  .justify-content-sm-center article {
+    text-align: center;
+  }
+
+  .letter article {
+    text-align: center;
+  }
+
+  .letter figure {
+    background-size: 100% 220%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  }
+
+  .letter img {
+    width: 100%;
+  }
+
+  .resp-align {
+    text-align: left;
+  }
+
+  .xs-list {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .logo-svg {
     height: 20px;
-	}
-    .xs-col article {
-    	display: flex;
+  }
 
-    }
-    .hidden-md {
-    	display: none;
+  .xs-col article {
+    display: flex;
+  }
 
-    }
-    .xs-col article {
-    	width: 100%;
-    }
-	.xs-col section {
-	    	width: 100%;
-	}
-	.icon-n-2 {
-    	height: 35px;
-	}
+  .hidden-md {
+    display: none;
+  }
 
-	 
+  .xs-col article {
+    width: 100%;
+  }
+
+  .xs-col section {
+    width: 100%;
+  }
+
+  .icon-n-2 {
+    height: 35px;
+  }
 }
 
 @media only screen and (max-width: 575px) and (min-width: 200px) {
-	.order-1 {
-		order: 0;
-	}
-	.order-2 {
-		order: 1;
-	}
-	.order-3 {
-		order: 2;
-	}
-	.disp-none-sm {
-		display: none;
-	}
-	form {
-	 	display: flex;
-	 	justify-content: center;
-	 	width: 100%;
-	 }
-	 fieldset {
-	 	width: 35%;
-	 }
-	 .justify-content-sm-center article {
-	 	text-align: center;
-	 }
-	 .letter article {
-	 	text-align: center;
-	 }
+  .order-1 {
+    order: 0;
+  }
 
-	 .letter figure {
-	 	background-size: 100% 220%;
-	 	background-position: center;
-	 	background-repeat: no-repeat;
-	 	height: 200px;
-	 	background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
-	 }
+  .order-2 {
+    order: 1;
+  }
 
-	 .letter img {
-	 	width: 100%;
-	 }
-	 .resp-align {
-	 	text-align: left;
-	 }
+  .order-3 {
+    order: 2;
+  }
 
-	 .pt-xs-3 {
-	 	padding-top: 3%;
-	 }
-	 .pl-xs-0 {
-	 	padding-left: 0;
-	 }
+  .disp-none-sm {
+    display: none;
+  }
 
-	 .pr-xs-0 {
-	 	padding-right: 0;
-	 }
-	
-	.pb-xs-0 {
-	 	padding-bottom: 0;
-	 }
-	.pt-xs-0 {
-	 	padding-top: 0;
-	 }
-	 .xs-list {
-	 	display: grid;
-	 	grid-template-columns: 70px 1fr;
-	 }
-	 .xs-list-2 {
-	 	display: grid;
-	 	grid-template-columns: 100px 1fr;
-	 }
-	 fieldset {
-	 	width: 70%;
-	 }
-	 footer svg {
-	 	width: 65%;
-	 }
-	 footer .xs-padding {
-	 	padding-left: 23px;
-	 }
-	 .xs-rows {
-	 	display: grid;
-	 	grid-template-rows: repeat(2, 1fr);
-	 }
-	 .col-xs {
-	 max-width: 75.5%;
-	 padding-left: 10%;
-	}
-	.nav-menu {
-	 	display: none;
-	 }
-	 .logo-svg {
+  form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  fieldset {
+    width: 35%;
+  }
+
+  .justify-content-sm-center article {
+    text-align: center;
+  }
+
+  .letter article {
+    text-align: center;
+  }
+
+  .letter figure {
+    background-size: 100% 220%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  }
+
+  .letter img {
+    width: 100%;
+  }
+
+  .resp-align {
+    text-align: left;
+  }
+
+  .pt-xs-3 {
+    padding-top: 3%;
+  }
+
+  .pl-xs-0 {
+    padding-left: 0;
+  }
+
+  .pr-xs-0 {
+    padding-right: 0;
+  }
+
+  .pb-xs-0 {
+    padding-bottom: 0;
+  }
+
+  .pt-xs-0 {
+    padding-top: 0;
+  }
+
+  .xs-list {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+  }
+
+  .xs-list-2 {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+  }
+
+  fieldset {
+    width: 70%;
+  }
+
+  footer svg {
+    width: 65%;
+  }
+
+  footer .xs-padding {
+    padding-left: 23px;
+  }
+
+  .xs-rows {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .col-xs {
+    max-width: 75.5%;
+    padding-left: 10%;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .logo-svg {
     height: 20px;
+  }
 
-	}
-	 .hidden-md {
-    	display: none;
+  .hidden-md {
+    display: none;
+  }
 
-    }
-    .weather {
-    	display: none;
+  .weather {
+    display: none;
+  }
 
-    }
-    .xs-col article {
-    	width: 30%;
-    }
-	.xs-col section {
-	    	width: 70%;
-	}
-	.icon-n-2 {
-    	height: 35px;
-	}
+  .xs-col article {
+    width: 30%;
+  }
 
+  .xs-col section {
+    width: 70%;
+  }
 
-
-
+  .icon-n-2 {
+    height: 35px;
+  }
 }
-/* Extra small devices (portrait phones, less than 576px) */
-/* No media query since this is the default in Bootstrap*/
