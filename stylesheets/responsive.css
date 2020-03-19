@@ -116,7 +116,100 @@
 	 .resp-align {
 	 	text-align: left;
 	 }
+	 .xs-list {
+	 	display: flex;
+	 }
+	 
 }
 
+@media only screen and (max-width: 575px) and (min-width: 200px) {
+	.order-1 {
+		order: 0;
+	}
+	.order-2 {
+		order: 1;
+	}
+	.order-3 {
+		order: 2;
+	}
+	.disp-none-sm {
+		display: none;
+	}
+	form {
+	 	display: flex;
+	 	justify-content: center;
+	 	width: 100%;
+	 }
+	 fieldset {
+	 	width: 35%;
+	 }
+	 .justify-content-sm-center article {
+	 	text-align: center;
+	 }
+	 .letter article {
+	 	text-align: center;
+	 }
+
+	 .letter figure {
+	 	background-size: 100% 220%;
+	 	background-position: center;
+	 	background-repeat: no-repeat;
+	 	height: 200px;
+	 	background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+	 }
+
+	 .letter img {
+	 	width: 100%;
+	 }
+	 .resp-align {
+	 	text-align: left;
+	 }
+
+	 .pt-xs-3 {
+	 	padding-top: 3%;
+	 }
+	 .pl-xs-0 {
+	 	padding-left: 0;
+	 }
+
+	 .pr-xs-0 {
+	 	padding-right: 0;
+	 }
+	
+	.pb-xs-0 {
+	 	padding-bottom: 0;
+	 }
+	.pt-xs-0 {
+	 	padding-top: 0;
+	 }
+	 .xs-list {
+	 	display: grid;
+	 	grid-template-columns: 70px 1fr;
+	 }
+	 .xs-list-2 {
+	 	display: grid;
+	 	grid-template-columns: 100px 1fr;
+	 }
+	 fieldset {
+	 	width: 70%;
+	 }
+	 footer svg {
+	 	width: 65%;
+	 }
+	 footer .xs-padding {
+	 	padding-left: 23px;
+	 }
+	 .xs-rows {
+	 	display: grid;
+	 	grid-template-rows: repeat(2, 1fr);
+	 }
+	 .col-xs {
+	 max-width: 75.5%;
+	 padding-left: 10%;
+	}
+
+
+
+}
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query since this is the default in Bootstrap*/
