@@ -1,8 +1,8 @@
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+/*@media (min-width: 1200px) { ... }*/
 
 /* Large devices (desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1920px){
   .logo-md svg {
     display: none;
   }
@@ -23,6 +23,17 @@
 	.resp-align {
 	 	text-align: right;
 	 }
+	 .letter img {
+	 	height: 215px;
+	 }
+	 .lg-rows {
+	 	display: grid;
+	 	grid-template-columns: repeat(2, 1fr);
+	 }
+	 .sub {
+	 	height: 216px;
+	 }
+	
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -66,22 +77,26 @@
 	.disp-none {
 		display: none;
 	}
+	.disp-none-x {
+		display: none;
+	}
 	.resp-align {
 	 	text-align: right;
 	 }
+
 
 
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (max-width: 767px) and (min-width: 576px) {
-	.order-1 {
+	.order-main {
 		order: 0;
 	}
-	.order-2 {
+	.order-left {
 		order: 1;
 	}
-	.order-3 {
+	.order-right {
 		order: 2;
 	}
 	.disp-none-sm {
