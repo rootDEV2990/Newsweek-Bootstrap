@@ -167,10 +167,11 @@ input {
 	background-color: #f4f5f6;
 }
 
-.signup-box label h4 {
+.signup-box label {
 	color: #555;
 	width: 60%;
 	font-weight: 600;
+	font-size: 1.2rem;
 }
 
 .sec .icon-n {
@@ -178,8 +179,17 @@ input {
 	width: 35px;
 }
 
+.button:hover {
+	color: white;
+}
+
 .icon-n {
 	height: 50%;
+	background-color: #f72210;
+}
+
+.icon-n-2 {
+	height: 35px;
 	background-color: #f72210;
 }
 

@@ -85,6 +85,10 @@
 	 .nav-menu {
 	 	display: none;
 	 }
+	 .icon-n-2 {
+    	height: 35px;
+	}
+
 
 
 
@@ -155,7 +159,10 @@
     }
 	.xs-col section {
 	    	width: 100%;
-	    }
+	}
+	.icon-n-2 {
+    	height: 35px;
+	}
 
 	 
 }
@@ -265,7 +272,10 @@
     }
 	.xs-col section {
 	    	width: 70%;
-	    }
+	}
+	.icon-n-2 {
+    	height: 35px;
+	}
 
 
 
