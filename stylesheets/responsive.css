@@ -273,10 +273,6 @@
     grid-template-columns: 100px 1fr;
   }
 
-  fieldset {
-    width: 70%;
-  }
-
   footer svg {
     width: 65%;
   }
