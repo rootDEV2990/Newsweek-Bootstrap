@@ -25,7 +25,7 @@
   }
 
   .letter img {
-    height: 215px;
+    height: 235px;
   }
 
   .lg-rows {
@@ -176,14 +176,11 @@
 
   .xs-col article {
     display: flex;
+    width: 100%;
   }
 
   .hidden-md {
     display: none;
-  }
-
-  .xs-col article {
-    width: 100%;
   }
 
   .xs-col section {
@@ -219,7 +216,7 @@
   }
 
   fieldset {
-    width: 35%;
+    width: 70%;
   }
 
   .justify-content-sm-center article {
