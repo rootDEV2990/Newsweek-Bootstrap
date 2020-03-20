@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8" />
+		    <meta http-equiv="x-ua-compatible" content="ie=edge">
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Foundation - Newsweek</title>
+			<!-- Reset links -->
+			<link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
+			<!-- Bootstrap links -->
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+			<!-- CSS links -->
+			<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+			<link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
+		</head>
+	<body class="container pl-xs-0 pr-xs-0">
+		<header>
+			<section class="row pt-4 pl-4 xs-col">
+				<h6 class="clip">Header of page with weather and account log in.</h6>
+				<article class="col-lg-4 col-md-6 col-sm-7 col-xs-3 pb-lg-4 logo-md">
+					<h6 class="clip">Logo and Weather</h6>
+					<figure class="d-block d-md-block d-sm-block d-xs-block d-lg-none">
+						<svg class="logo-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" xml:space="preserve">
+						<g>
+							<path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+						</g>
+					</svg>
+					</figure>
+					<span class="weather pl-1"><img alt="News Week Article Photo - Your Browser Does Not Support File Type." src="https://g.newsweek.com/img/weather/28.png"> 20° Puerto Vallarta, MX ></span>
+					<br>
+					<span class="weather hidden-md">Mon, Mar 16, 2020</span>
+				</article>
+				<figure class="col-lg-4 logo d-none d-md-none d-sm-none d-xs-none d-lg-block">
+					<svg class="logo-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" xml:space="preserve">
+						<g>
+							<path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+						</g>
+					</svg>
+				</figure>
+				<section class="col-lg-4 col-md-6 col-sm-5 col-xs-3 d-flex align-items-responsive justify-content-end pb-4 ">
+					<h6 class="clip">Log into your account</h6>
+					<button class="button">Sign In</button>
+					<button class="button hollow">Subscribe > </button>
+					<button class="transparent"><i class="fas fa-bars pb-2"></i></button>
+				</section>
+			</section>
+			<nav class="nav-menu">
+				<a class="nav-link" href="https://www.newsweek.com/us">U.S.</a>
+				<a class="nav-link" href="https://www.newsweek.com/world">World</a>
+				<a class="nav-link" href="https://www.newsweek.com/business">Business</a>
+				<a class="nav-link" href="https://www.newsweek.com/tech-science">Tech & Science</a>
+				<a class="nav-link" href="https://www.newsweek.com/culture">Culture</a>
+				<a class="nav-link" href="https://www.newsweek.com/newsgeek">Newsgeek</a>
+				<a class="nav-link" href="https://www.newsweek.com/sports">Sports</a>
+				<a class="nav-link" href="https://www.newsweek.com/health">Health</a>
+				<a class="nav-link" href="https://www.newsweek.com/the-debate">The Debate</a>
+				<a class="nav-link" href="https://www.newsweek.com/vantage">Vantage</a>		
+				<a class="nav-link" href="https://www.newsweek.com/weather">Weather</a>
+				<input type="text" class="search-bar" placeholder="Search">
+				<div class="col triangle"></div>
+			</nav>
+		</header>
+		<main class="pb-3">
+			<!-- Start Main sec -->
+			<div class="row pr-lg-4 pl-lg-4 pd-0-md">
+				<!-- Start of right sec -->
+				<section class="col-lg-3 col-md-5 pr-lg-3 order-right">
+					<h6 class="col-12">Featured stories</h6>
+					<div class="row">
+						<article>
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574029/bernie-sanders-democratic-debate-washington-dc.webp?q=90&f=d708ae5ebf129d61b8799beb41338410">
+							<a href="https://www.newsweek.com/bernie-sanders-says-trumps-blabbering-unfactual-coronavirus-info-unacceptable-1492424">
+								<h2>Bernie Sanders on Trump's Coronavirus Response: 'Shut This President Up'</h2>
+							</a>
+							<p>"He is undermining the doctors and scientists who are trying to help the American people," the Vermont senator said during Sunday's Democratic debate.</p>
+						</article>
+						<article>
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574018/anthony-fauci.webp?q=90&f=ac2b68c6a8365fddf43e78f3d4f08a88">
+							<a href="https://www.newsweek.com/dr-anthony-fauci-says-he-would-like-dramatic-reduction-personal-interactions-social-1492410">
+								<h2>Fauci Warns Young Americans About Ignoring Advice on Social Distancing</h2>
+							</a>
+							<p>He cautioned about ignoring recommendations from health care officials and government agencies at the state, federal and local levels regarding social distancing.</p>
+						</article>
+						<article>
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1573986/coronavirus-test.webp?q=90&f=1afc7acbc30ece755cf03647075881f9">
+							<a href="https://www.newsweek.com/thermo-fisher-coronavirus-test-kits-provide-results-four-hours-1492370">
+								<h2>Massachusetts Firm to Produce Millions of High-Speed COVID-19 Test Kits </h2>
+							</a>
+							<p>Thermo Fisher Scientific said the U.S. Food and Drug Administration has issued an emergency authorization for its test, which can provide results within four hours of a sample arriving at a lab.</p>
+						</article>
+						<article class="disp-none-sm">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1573945/patients-queue-wuhan-hospital.webp?q=90&f=43d50d1c83ea3f2ce31becdeef1499ee">
+							<a href="https://www.newsweek.com/china-traces-coronavirus-back-first-confirmed-patient-zero-1492327">
+								<h2>China Traces Coronavirus to First Confirmed Case: Report</h2>
+							</a>
+							<p>It was reported by the South China Morning Post that a 55-year-old from Hubei, China may have had the first confirmed case of the virus.</p>
+						</article>
+					</div>
+				</section>
+				<!-- End of right sec -->
+				<!-- Start of Middle sec -->
+				<section class="col-lg-6 col-md-7 pr-lg-1 pl-lg-1 pl-md-0 pr-md-0 middle-sec order-main pl-xs-0 pr-xs-0">
+					<h6 class="col-12">Top stories</h6>
+					<div class="row">
+						<article class="col-12">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574026/jerome-powell.webp?f=d8b3933eb4904e1bc1665437d7d95460">
+							<a href="https://www.newsweek.com/federal-reserve-slashes-interest-rates-near-0-amid-coronavirus-pandemic-will-purchase-700b-1492418">
+								<h2>Federal Reserve Slashes Interest Rates to Near 0% Amid Coronavirus Pandemic</h2>
+							</a>
+							<p>The central bank also urged banks to supply credit to the economy through the elimination of reserve requirements.</p>
+						</article>
+					</div>
+					<section class="row disp-none-sm">
+						<h6 class="col-12">Culture & Travel</h6>
+						<article class="col-lg-4 col-md-4">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1572738/flight-cancel-refund-reschedule-italy-coronavirus-lockdown.webp?f=78ee008094a5891e78049c5b6beedef5">
+							<a href="https://www.newsweek.com/italy-flight-cancellations-refund-rebook-lockdown-coronavirus-1491428">
+								<h4>Italy Coronavirus Lockdown: How to Reschedule Flights, Receive Refunds </h4>
+							</a>
+							<p>Ahead of the country-wide lockdown announcement, airlines already started giving customers options to change their travel plans.</p>
+						</article>
+						<article class="col-lg-4 col-md-4">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1572553/restaurants-edge-still.webp?f=fcd42aa2505310a1853036746f9a330c">
+							<a href="https://www.newsweek.com/restaurants-edge-hosts-dish-about-new-netflix-makeover-show-1491291">
+								<h4>'Restaurants on the Edge': Hosts Dish About New Netflix Show</h4>
+							</a>
+							<p>Netflix's new food and travel docuseries spans the globe as it makes over failing restaurants that try to get by on their beautiful views alone.</p>
+						</article>
+						<article class="col-lg-4 col-md-4">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1571081/cul-uncharted-stargazing-banner.webp?f=5debbb1743b026c67fa7c79736721c31">
+							<a href="https://www.newsweek.com/2020/03/13/best-stargazing-spots-around-globe-1490781.html">
+								<h4>Best Stargazing Spots Around the Globe</h4>
+							</a>
+							<p>Astrotourism is taking off, and these are the best places—on our planet, at least—to witness the dazzling display of luminous balls of gas that we call stars.</p>
+						</article>
+					</section>
+					<section class="row disp-none-sm">
+						<h6 class="col-12">More Stories</h6>
+						<article class="list-item row">
+							<figure class="col-3">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574025/coronavirus.webp?f=679cd73b3c679e8685f3f5d38a8e5abb">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/ohio-illinois-closing-all-restaurants-bars-amid-coronavirus-pandemic-we-cant-have-people-1492417">
+									<h3>Ohio, Illinois Closing All Restaurants and Bars Amid Coronavirus Pandemic</h3>
+								</a>
+								<p>Ohio will close down all restaurants and bars on Sunday, and Illinois will do the same starting Monday night.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1573993/us-airport.webp?f=e56e8fa240631a4991c54934db701d3d">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/coronavirus-airports-donald-trump-west-virginia-1492383">
+									<h3>Coronavirus U.S. Update: Crowded Airports as Travelers Are Screened</h3>
+								</a>
+								<p>Scenes of crowded U.S. airports have been shared on social media as travellers returning from Europe face screening.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574006/donald-trump.webp?f=0e484cbf33055b1ea22bb987c0272043">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/coronavirus-airports-donald-trump-west-virginia-1492383">
+									<h3>Only 48 Percent of Americans Trust Trump to Handle COVID-19 Crisis</h3>
+								</a>
+								<p>The poll from NBC News and The Wall Street Journal also asked if Americans think the outbreak is going to get worse, with 60 percent saying they think it will.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1573990/hubei-province.webp?f=4cbcede471ca53ae0ab7d69ffeb23ecd">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/coronavirus-update-spain-south-korea-netanyahu-nicaragua-1492377">
+									<h3>Coronavirus Update: Death Toll Rises as Europe Enacts Tough Measures</h3>
+								</a>
+								<p>The death toll continues to climb and restaurants and cafes have been shut in Spain and France.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1573998/jeanine-pirro.webp?f=b11cde44f92f4749b5deeab2764abaf1">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/surgeon-general-says-communities-must-help-end-coronavirus-outbreak-you-are-not-helpless-america-1492390">
+									<h3>Surgeon General Says Communities Must Help End COVID-19 Outbreak</h3>
+								</a>
+								<p>"We really need to lean into protecting our most vulnerable—people with chronic and severe medical conditions, especially the elderly because we know that they are most at risk," Surgeon General Jerome Adams said.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574008/bernie-sanders-joe-biden.webp?f=5089c2fcef88de028c3b6368208d37af">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/joe-biden-leads-bernie-sanders-nearly-30-points-new-national-poll-1492403">
+									<h3>Joe Biden Leads Bernie Sanders by Nearly 30 Points in New National Poll</h3>
+								</a>
+								<p>A full 61 percent of Democratic voters said they were likely to back the former vice president.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574006/donald-trump.webp?f=0e484cbf33055b1ea22bb987c0272043">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/coronavirus-airports-donald-trump-west-virginia-1492383">
+									<h3>Only 48 Percent of Americans Trust Trump to Handle COVID-19 Crisis</h3>
+								</a>
+								<p>The poll from NBC News and The Wall Street Journal also asked if Americans think the outbreak is going to get worse, with 60 percent saying they think it will.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1573996/alexandria-ocasio-cortez-ted-cruz.webp?f=dc38b754283cb1dcc42b576ac9275617">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/ted-cruz-says-aoc-giving-good-advice-about-coronavirus-precautions-1492384">
+									<h3>Ted Cruz Says AOC Giving 'Good Advice' About Coronavirus Precautions</h3>
+								</a>
+								<p>"Not just for NYC, but everywhere," the Republican senator tweeted, sharing advice posted by Representative Alexandria Ocasio-Cortez.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1552988/walmart.webp?f=f69f5b55bee94d0401600ce67de5d572">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/suspect-las-vegas-wore-hazmat-suit-sprayed-customers-1492396">
+									<h3>Suspect in Las Vegas Wore Hazmat Suit, Sprayed Customers in COVID-19 Scare</h3>
+								</a>
+								<p>The Las Vegas Metropolitan Police Department said the suspect walked into the store wearing a hazmat suit and sprayed items and 13 people with a "clear liquid."</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1310930/gettyimages-1027343424.webp?f=2e66ab54de4c38d1178e13bb22ec0069">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/nike-closing-all-stores-coronavirus-pandemic-1492387">
+									<h3>Nike Is Closing All of Its Stores in the U.S. And Beyond</h3>
+								</a>
+								<p>The company is closing its stores in Canada, Western Europe, Australia, and New Zealand from March 16 - 27.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574001/tulsi-gabbard.webp?f=9c73f5bd03432757af9c1f8eaccc7c42">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/tulsi-gabbard-says-political-elite-corporate-media-are-trying-erase-her-presidential-candidacy-1492393">
+									<h3>Tulsi Gabbard Says Political Elite 'Trying to Erase' Her Candidacy</h3>
+								</a>
+								<p>"49% of voters say #LetTulsiDebate," the congresswoman tweeted.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574080/dead-sea-scrolls-fragment.webp?f=04affb14ae33ae443cdd24b69a30e7a7">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/entire-dead-sea-scroll-fragment-collection-washington-dc-museum-bible-fake-1492470">
+									<h3>Entire Dead Sea Scroll Fragment Collection at U.S. Museum Is Fake: Experts</h3>
+								</a>
+								<p>Considered to be among the most significant archaeological finds of all time, the Dead Sea Scrolls contain some of the earliest versions of biblical </p>
+							</header>
+						</article>
+					</section>
+				</section>
+				<!-- End of Middle sec -->
+				<!-- Start of Left sec -->
+				<section class="col-lg-3 pr-2 pl-0 left-sec order-left">
+					<h6 class="col-12">Opinion</h6>
+					<div class="row">
+						
+						<article class="list-item col-lg-12 row xs-list">
+							<figure class="col-lg-3 col-md-1 col-sm-1">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." src="https://d.newsweek.com/en/full/83499/newt-gingrich.webp?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77">
+							</figure>
+							<header class="col-9 col-lg-8 col-sm-10 pl-sm-4 ml-sm-2">
+								<a href="https://www.newsweek.com/newt-gingrich-i-am-italy-amid-coronavirus-crisis-america-must-act-now-act-big-opinion-1492270">
+									<h3>I Am in Italy Amid the Coronavirus Crisis. America Must Act Now—And Act Big</h3>
+								</a>
+								<span class="author">By Newt Gingrich</span>
+							</header>
+						</article>
+						<article class="list-item col-lg-12 row xs-list">
+							<figure class="col-lg-3 col-md-1 col-sm-1">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." src="https://d.newsweek.com/en/full/1573497/judy-chu.webp?w=63&h=63&f=5845bc93df16bd7ba71523494ce3d57a">
+							</figure>
+							<header class="col-9 col-lg-8 col-sm-10 pl-sm-4 ml-sm-2">
+								<a href="https://www.newsweek.com/parroting-chinese-coronavirus-republicans-are-promoting-racism-putting-lives-danger-1492033">
+									<h3>By Parroting 'Chinese Coronavirus,' Republicans Are Promoting Racism</h3>
+								</a>
+								<span class="author">By Judy Chu</span>
+							</header>
+						</article>
+						<article class="list-item col-lg-12 row xs-list">
+							<figure class="col-lg-3 col-md-1 col-sm-1">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." src="https://d.newsweek.com/en/full/1573743/angela-hanks.webp?w=63&h=63&f=5645fd958f7fe5abab54bf635fc1dcc8">
+							</figure>
+							<header class="col-9 col-lg-8 col-sm-10 pl-sm-4 ml-sm-2">
+								<a href="https://www.newsweek.com/coronavirus-exposing-trumps-strong-economy-hoax-it-opinion-1492195">
+									<h3>Coronavirus Is Exposing Trump's 'Strong Economy' for the Hoax It Is </h3>
+								</a>
+								<span class="author">By Angela Hanks</span>
+							</header>
+						</article>
+						<article class="list-item col-lg-12 row xs-list">
+							<figure class="col-lg-3 col-md-1 col-sm-1">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." src="https://d.newsweek.com/en/full/1506965/charlie-kirk.webp?w=63&h=63&f=dadcbab6cd325ee70d1bfe4df5a01410">
+							</figure>
+							<header class="col-9 col-lg-8 col-sm-10 pl-sm-4 ml-sm-2">
+								<a href="https://www.newsweek.com/charlie-kirk-dont-panic-over-coronavirus-thats-just-what-presidents-enemies-want-you-do-1492241">
+									<h3>Don't Panic Over Coronavirus. That's Just What the President's Enemies Want</h3>
+								</a>
+								<span class="author">By Charlie Kirk</span>
+							</header>
+						</article>
+						<article class="list-item col-lg-12 row disp-none-sm">
+							<figure class="col-lg-3 col-md-1 col-sm-1">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." src="https://d.newsweek.com/en/full/1573355/leeza-garber.webp?w=63&h=63&f=da5f70a170f6ee7a6c2da3b125b81112">
+							</figure>
+							<header class="col-9 col-lg-8 col-sm-10 pl-sm-4 ml-sm-2">
+								<a href="https://www.newsweek.com/coronavirus-person-voting-dont-mix-we-must-prepare-digitized-elections-opinion-1491926">
+									<h3>Coronavirus and In-Person Voting Don't Mix. We Must Prepare for Digitized Elections</h3>
+								</a>
+								<span class="author">By Leeza Garber</span>
+							</header>
+						</article>
+						<article class="list-item col-lg-12 row disp-none-sm">
+							<figure class="col-lg-3 col-md-1 col-sm-1">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." src="https://d.newsweek.com/en/full/1573495/ibrahim-alhusseini.webp?w=63&h=63&f=89e38b80fbb92ca0db7598e944a5acdd">
+							</figure>
+							<header class="col-9 col-lg-8 col-sm-10 pl-sm-4 ml-sm-2">
+								<a href="https://www.newsweek.com/trump-hurting-economy-linking-coronavirus-immigration-opinion-1492046">
+									<h3>Trump Is Hurting the Economy by Linking Coronavirus to Immigration </h3>
+								</a>
+								<span class="author">By Ibrahim AlHusni</span>
+							</header>
+						</article>
+					</div>
+					<section class="row debate">
+						<h6 class="col-12">The Debate</h6>
+						<article class="list-item row">
+							<figure class="col-4 col-lg-4 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="square-img" src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.webp?f=21391dc808b8d22a74101528562b16ab">
+							</figure>
+							<header class="col-8 pl-lg-4 pl-md-4 pl-sm-1">
+								<a href="https://www.newsweek.com/coronavirus-epidemic-economy-united-kingdom-nigel-farage-boris-johnson-1491302">
+									<h3>Protecting Us All From an Epidemic Should Be Prioritized Over the Economy</h3>
+								</a>
+							</header>
+							<div class="col-12 d-flex justify-content-between debate-author">
+								<h6 class="author"><span>By</span> Nigel Farage</h6>
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="user-img" src="https://d.newsweek.com/en/full/1563625/nigel-farage.webp?f=2ae37ecc11a3397b627c243707faa3cb">
+							</div>
+						</article>
+						<article class="list-item row mt-4">
+							<figure class="col-4 col-lg-4 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="square-img" src="https://d.newsweek.com/en/full/1572870/coronavirus-italy.webp?f=8ca9dfc141dab16b9c9b3d959364a854">
+							</figure>
+							<header class="col-8 pl-lg-4 pl-md-4 pl-sm-1">
+								<a href="https://www.newsweek.com/coronavirus-epidemic-economy-lives-livelihoods-1491545">
+									<h3>In This Fight Against Coronavirus, We Need to Protect Both Lives and Livelihoods</h3>
+								</a>
+							</header>
+							<div class="col-12 d-flex justify-content-between debate-author">
+								<h6 class="author"><span>By</span> Asad Hamir</h6>
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="user-img" src="https://d.newsweek.com/en/full/1572873/asad-hamir.webp?w=150&h=150&f=116b04f6ce04832db4f41612232f8c29">
+							</div>
+						</article>
+					</section>
+					<section class="row d-none d-sm-block d-md-none">	
+						<h6 class="col-12">More Stories</h6>
+						<article class="list-item row">
+							<figure class="col-3 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574025/coronavirus.webp?f=679cd73b3c679e8685f3f5d38a8e5abb">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/ohio-illinois-closing-all-restaurants-bars-amid-coronavirus-pandemic-we-cant-have-people-1492417">
+									<h3>Ohio, Illinois Closing All Restaurants and Bars Amid Coronavirus Pandemic</h3>
+								</a>
+								<p>Ohio will close down all restaurants and bars on Sunday, and Illinois will do the same starting Monday night.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1573993/us-airport.webp?f=e56e8fa240631a4991c54934db701d3d">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/coronavirus-airports-donald-trump-west-virginia-1492383">
+									<h3>Coronavirus U.S. Update: Crowded Airports as Travelers Are Screened</h3>
+								</a>
+								<p>Scenes of crowded U.S. airports have been shared on social media as travellers returning from Europe face screening.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574006/donald-trump.webp?f=0e484cbf33055b1ea22bb987c0272043">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/coronavirus-airports-donald-trump-west-virginia-1492383">
+									<h3>Only 48 Percent of Americans Trust Trump to Handle COVID-19 Crisis</h3>
+								</a>
+								<p>The poll from NBC News and The Wall Street Journal also asked if Americans think the outbreak is going to get worse, with 60 percent saying they think it will.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1573990/hubei-province.webp?f=4cbcede471ca53ae0ab7d69ffeb23ecd">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/coronavirus-update-spain-south-korea-netanyahu-nicaragua-1492377">
+									<h3>Coronavirus Update: Death Toll Rises as Europe Enacts Tough Measures</h3>
+								</a>
+								<p>The death toll continues to climb and restaurants and cafes have been shut in Spain and France.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1573998/jeanine-pirro.webp?f=b11cde44f92f4749b5deeab2764abaf1">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/surgeon-general-says-communities-must-help-end-coronavirus-outbreak-you-are-not-helpless-america-1492390">
+									<h3>Surgeon General Says Communities Must Help End COVID-19 Outbreak</h3>
+								</a>
+								<p>"We really need to lean into protecting our most vulnerable—people with chronic and severe medical conditions, especially the elderly because we know that they are most at risk," Surgeon General Jerome Adams said.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574008/bernie-sanders-joe-biden.webp?f=5089c2fcef88de028c3b6368208d37af">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/joe-biden-leads-bernie-sanders-nearly-30-points-new-national-poll-1492403">
+									<h3>Joe Biden Leads Bernie Sanders by Nearly 30 Points in New National Poll</h3>
+								</a>
+								<p>A full 61 percent of Democratic voters said they were likely to back the former vice president.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574006/donald-trump.webp?f=0e484cbf33055b1ea22bb987c0272043">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/coronavirus-airports-donald-trump-west-virginia-1492383">
+									<h3>Only 48 Percent of Americans Trust Trump to Handle COVID-19 Crisis</h3>
+								</a>
+								<p>The poll from NBC News and The Wall Street Journal also asked if Americans think the outbreak is going to get worse, with 60 percent saying they think it will.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1573996/alexandria-ocasio-cortez-ted-cruz.webp?f=dc38b754283cb1dcc42b576ac9275617">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/ted-cruz-says-aoc-giving-good-advice-about-coronavirus-precautions-1492384">
+									<h3>Ted Cruz Says AOC Giving 'Good Advice' About Coronavirus Precautions</h3>
+								</a>
+								<p>"Not just for NYC, but everywhere," the Republican senator tweeted, sharing advice posted by Representative Alexandria Ocasio-Cortez.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1552988/walmart.webp?f=f69f5b55bee94d0401600ce67de5d572">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/suspect-las-vegas-wore-hazmat-suit-sprayed-customers-1492396">
+									<h3>Suspect in Las Vegas Wore Hazmat Suit, Sprayed Customers in COVID-19 Scare</h3>
+								</a>
+								<p>The Las Vegas Metropolitan Police Department said the suspect walked into the store wearing a hazmat suit and sprayed items and 13 people with a "clear liquid."</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1310930/gettyimages-1027343424.webp?f=2e66ab54de4c38d1178e13bb22ec0069">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/nike-closing-all-stores-coronavirus-pandemic-1492387">
+									<h3>Nike Is Closing All of Its Stores in the U.S. And Beyond</h3>
+								</a>
+								<p>The company is closing its stores in Canada, Western Europe, Australia, and New Zealand from March 16 - 27.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574001/tulsi-gabbard.webp?f=9c73f5bd03432757af9c1f8eaccc7c42">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/tulsi-gabbard-says-political-elite-corporate-media-are-trying-erase-her-presidential-candidacy-1492393">
+									<h3>Tulsi Gabbard Says Political Elite 'Trying to Erase' Her Candidacy</h3>
+								</a>
+								<p>"49% of voters say #LetTulsiDebate," the congresswoman tweeted.</p>
+							</header>
+						</article>
+						<article class="list-item row">
+							<figure class="col-3 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574080/dead-sea-scrolls-fragment.webp?f=04affb14ae33ae443cdd24b69a30e7a7">
+							</figure>
+							<header class="col-9">
+								<a href="https://www.newsweek.com/entire-dead-sea-scroll-fragment-collection-washington-dc-museum-bible-fake-1492470">
+									<h3>Entire Dead Sea Scroll Fragment Collection at U.S. Museum Is Fake: Experts</h3>
+								</a>
+								<p>Considered to be among the most significant archaeological finds of all time, the Dead Sea Scrolls contain some of the earliest versions of biblical </p>
+							</header>
+						</article>
+					</section>
+					<!-- end hidden sec one -->
+					<!-- start hidden sec two -->
+					<section class="row disp-none d-none d-sm-block d-md-none">
+						<h6 class="col-12">Culture & Travel</h6>
+						<article class="col-lg-4 col-md-4">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1572738/flight-cancel-refund-reschedule-italy-coronavirus-lockdown.webp?f=78ee008094a5891e78049c5b6beedef5">
+							<a href="https://www.newsweek.com/italy-flight-cancellations-refund-rebook-lockdown-coronavirus-1491428">
+								<h4>Italy Coronavirus Lockdown: How to Reschedule Flights, Receive Refunds </h4>
+							</a>
+							<p>Ahead of the country-wide lockdown announcement, airlines already started giving customers options to change their travel plans.</p>
+						</article>
+						<article class="col-lg-4 col-md-4">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1572553/restaurants-edge-still.webp?f=fcd42aa2505310a1853036746f9a330c">
+							<a href="https://www.newsweek.com/restaurants-edge-hosts-dish-about-new-netflix-makeover-show-1491291">
+								<h4>'Restaurants on the Edge': Hosts Dish About New Netflix Show</h4>
+							</a>
+							<p>Netflix's new food and travel docuseries spans the globe as it makes over failing restaurants that try to get by on their beautiful views alone.</p>
+						</article>
+						<article class="col-lg-4 col-md-4">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1571081/cul-uncharted-stargazing-banner.webp?f=5debbb1743b026c67fa7c79736721c31">
+							<a href="https://www.newsweek.com/2020/03/13/best-stargazing-spots-around-globe-1490781.html">
+								<h4>Best Stargazing Spots Around the Globe</h4>
+							</a>
+							<p>Astrotourism is taking off, and these are the best places—on our planet, at least—to witness the dazzling display of luminous balls of gas that we call stars.</p>
+						</article>
+					</section>
+					<!-- end hidden sec two -->
+					<section class="row">
+						<h6 class="col-12 mt-3 pb-2">Latest News</h6>
+						<article class="list-item row xs-list-2">
+							<figure class="col-lg-4 col-md-2 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." src="https://d.newsweek.com/en/full/1574279/roses.webp?w=95&h=95&f=9b93e3661b38fc3abc8b2a01d848ac0b">
+							</figure>
+							<header class="col-lg-8 col-md-10 col-sm-10 pl-4">
+								<a href="https://www.newsweek.com/romantic-senior-woos-his-wife-outside-her-hospital-window-wont-let-coronavirus-come-between-them-1492609">
+									<h3>Senior Woos His Wife Outside Her Hospital Window Despite Coronavirus Fears</h3>
+								</a>
+							</header>
+						</article>
+						<article class="list-item row xs-list-2">
+							<figure class="col-lg-4 col-md-2 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." src="https://d.newsweek.com/en/full/1574277/us-president-donald-trump.webp?w=95&h=95&f=f910c8f626dd3ded8c120e054716be81">
+							</figure>
+							<header class="col-lg-8 col-md-10 col-sm-10 pl-4">
+								<a href="https://www.newsweek.com/trump-told-governors-get-respirators-ventilators-yourselves-amid-coronavirus-pandemic-report-1492608">
+									<h3>Report Shows Trump Telling Governors to Get Respirators by 'Yourselves'</h3>
+								</a>
+							</header>
+						</article>
+						<article class="list-item row xs-list-2">
+							<figure class="col-lg-4 col-md-2 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." src="https://d.newsweek.com/en/full/1574275/devin-nunes.webp?w=95&h=95&f=a6e3fdbc4a3cd0f48eb69dfb765364ef">
+							</figure>
+							<header class="col-8 col-lg-8 pl-4 col-sm-10">
+								<a href="https://www.newsweek.com/doctor-fox-news-criticizes-gop-rep-devin-nunes-telling-healthy-people-dine-out-during-1492603">
+									<h3>Fox Doctor Criticizes Nunes For Telling People to Eat Out During Pandemic</h3>
+								</a>
+							</header>
+						</article>
+						<article class="list-item row xs-list-2">
+							<figure class="col-lg-4 col-md-2 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." src="https://d.newsweek.com/en/full/1574267/no-marshall-law-isnt-eminems-new-album-heres-why-its-trending.webp?w=95&h=95&f=89099b43c99e4f4a5a9dc94840af1d0b">
+							</figure>
+							<header class="col-8 col-lg-8 pl-4 col-sm-10">
+								<a href="https://www.newsweek.com/marshall-martial-law-eminem-album-marco-rubio-1492606">
+									<h3>No, 'Marshall Law' Isn't Eminem's New Album, Here's Why It's Trending</h3>
+								</a>
+							</header>
+						</article>
+						<article class="list-item row xs-list-2">
+							<figure class="col-lg-4 col-md-2 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." src="https://d.newsweek.com/en/full/1574093/man-riding-subway-wearing-mask.webp?w=95&h=95&l=0&t=0&f=ef576624c65e04857b80b739d5ee5f94">
+							</figure>
+							<header class="col-8 col-lg-8 pl-4 col-sm-10">
+								<a href="https://www.newsweek.com/staythefkhome-movement-just-wants-you-well-you-know-1492581">
+									<h3>The #StayTheF***kHome Movement Just Wants You To, Well, You Know</h3>
+								</a>
+							</header>
+						</article>
+						<article class="list-item row xs-list-2">
+							<figure class="col-lg-4 col-md-2 col-sm-2">
+								<img alt="News Week Article Photo - Your Browser Does Not Support File Type." src="https://d.newsweek.com/en/full/1574270/doug-wead-fox-trump-coronavirus.webp?w=95&h=95&f=b5a1b11ef8a70a2e73b9566e07b72fff">
+							</figure>
+							<header class="col-8 col-lg-8 pl-4 col-sm-10">
+								<a href="https://www.newsweek.com/trump-was-born-fight-coronavirus-his-response-almost-perfect-presidential-historian-says-1492599">
+									<h3>Presidential Historian Says Trump 'Was Born' to Fight Coronavirus</h3>
+								</a>
+							</header>
+						</article>
+						<form>
+							<fieldset class="row signup-box pt-3">
+								<label class="col-12 d-flex align-items-start">
+									<span class="icon-n-2 mt-1 mr-1"><img alt="News Week Article Photo - Your Browser Does Not Support File Type." src="https://g.newsweek.com/www/images/logo-n1.svg"></span>
+									Sign up for our Newsletter
+								</label>
+								<button class="btn btn-secondary ml-3">Sign Up > </button>
+								<a class="w-100 ml-3 mt-2 pb-2" href="https://www.pages05.net/newsweek/NewslettersTheStarting5/TheStartingFive/?utm_source=NWwebsite&utm_medium=Middle&utm_campaign=Starting5">Update your preferences »</a>
+							</fieldset>
+						</form>
+					</section>
+				</section>
+				<!-- End of Left sec -->
+			</div>
+			<!-- Emd Main sec -->
+			<!-- Start In the Mag sec -->
+			<section class="row sec mag">
+				<div class="text-center col-12 d-flex justify-content-center sec-heading  mb-3 mt-3">
+					<span class="icon-n mt-1 mr-1">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." src="https://g.newsweek.com/www/images/logo-n1.svg">
+					</span>
+					<h4 class="mt-2 ml-2">IN THE MAGAZINE</h4>
+				</div>
+				<article class="col-md-3 col-sm-12 col-xs-12">
+					<h6 class="clip">List of additional articles.</h6>
+					<figure class="col-sm-12 col-xs-12">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574205/march-20-27-2020-cover.webp?w=290&h=387&q=90&f=6cabc6fdb2336c21d18e11d141e355b6">
+						<button class="btn btn-see-all w-100">See All Features ></button>
+					</figure>
+					
+				</article>
+				<article class="col-md-3 col-sm-12 col-xs-12">
+					<figure class="col-sm-12 col-xs-12">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1567892/bernie-sanders-medicare-all.webp?w=397&h=265&q=90&f=e3ab54989da27e92b91f5041b720d1f1">
+					</figure>
+					<div class="category">
+						<span>Features<a href="https://www.newsweek.com/health">Health</a></span>
+					</div>
+					<a href="https://www.newsweek.com/bernie-sanders-right-about-medicare-all-how-government-run-health-care-actually-works-1492411">
+						<h2>Is Bernie Sanders Right About Medicare For All?</h2>
+					</a>
+				</article>
+				<article class="col-md-3 col-sm-12 col-xs-12">
+					<figure class="col-sm-12 col-xs-12">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1571763/crazy-market-01.webp?w=397&h=265&l=52&t=47&q=90&f=94f002efcd726bebab52f56f19ac54da">
+					</figure>
+					<div class="category">
+						<span>Features<a href="https://www.newsweek.com/business">Business</a></span>
+					</div>
+					<a href="https://www.newsweek.com/bernie-sanders-right-about-medicare-all-how-government-run-health-care-actually-works-1492411">
+						<h2>How to Stay Sane In a Crazy Market</h2>
+					</a>
+				</article>
+
+				<article class="col-md-3 col-sm-12 col-xs-12">
+					<figure class="col-sm-12 col-xs-12">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1572578/per-hollywood-banner.webp?w=397&h=265&l=50&t=47&q=90&f=5355c0485dded55b8bc980660b7407f8">
+					</figure>
+					<div class="category">
+						<span>Periscope<a href="https://www.newsweek.com/health">Culture</a></span>
+					</div>
+					<a href="https://www.newsweek.com/2020/03/27/bernie-sanders-beating-joe-biden-race-donations-hollywoods-elite-1491308.html">
+						<h2>Sanders Is Beating Biden In the Race for Donations From Hollywood's Elite</h2>
+					</a>
+				</article>
+				<article class="col-md-3 col-sm-12 col-xs-12">
+					<figure class="col-sm-12 col-xs-12">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1573187/hor-btn-pandemics-01.webp?w=466&h=311&q=90&f=6b3df08452d42adbcafe3238dd679c30">
+					</figure>
+					<div class="category">
+						<span>Horizons<a href="https://www.newsweek.com/health">Culture</a></span>
+					</div>
+					<a href="https://www.newsweek.com/2020/03/27/past-pandemics-numbers-how-coronavirus-fits-1491794.html">
+						<h2>Past Pandemics By The Numbers and How Coronavirus Fits In</h2>
+					</a>
+				</article>
+				<article class="col-md-3 col-sm-12 col-xs-12">
+					<figure class="col-sm-12 col-xs-12">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1572525/cul-uncharted-stadiums-banner.webp?w=466&h=311&q=90&f=a57d51bbafc7d141842f113cedb6dea1">
+					</figure>
+					<div class="category">
+						<span>Horizons<a href="https://www.newsweek.com/health">Culture</a></span>
+					</div>
+					<a href="https://www.newsweek.com/2020/03/27/grandest-olympic-stadiums-all-time-1491816.html">
+						<h2>The Grandest Olympic Stadiums of All Time</h2>
+					</a>
+				</article>
+				<article class="col-md-3 col-sm-12 col-xs-12">
+					<figure class="col-sm-12 col-xs-12">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1572537/cul-ps-elainewelteroth.webp?w=466&h=311&q=90&f=d0be6c4a2061644d054dda643a3ce72b">
+					</figure>
+					<div class="category">
+						<span>Downtime<a href="https://www.newsweek.com/health">Culture</a></span>
+					</div>
+					<a href="https://www.newsweek.com/project-runways-elaine-welteroth-how-fashion-can-force-change-1485743">
+						<h2>Project Runway's Elaine Welteroth On How Fashion Can Be a Force for Change</h2>
+					</a>
+				</article>
+				<article class="col-md-3 col-sm-12 col-xs-12">
+					<figure class="col-sm-12 col-xs-12">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1572546/aftermath.webp?&q=90&f=33d6a4844efac639705674e960d90ba9%201x">
+					</figure>
+					<a href="https://www.newsweek.com/#">
+						<h2>The Aftermath</h2>
+					</a>
+				</article>
+			</section>
+			
+			<!-- End In the Mag sec -->
+			<!-- Start Editors Pick sec -->
+			<section class="row sec">
+				<div class="text-center col-12 d-flex justify-content-center sec-heading  mb-3 mt-3">
+					<span class="icon-n mt-1 mr-1">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." src="https://g.newsweek.com/www/images/logo-n1.svg">
+					</span>
+					<h4 class="mt-2 ml-2">Editors Picks</h4>
+				</div>
+				<article class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<figure class="col-sm-12 col-xs-12 pr-md-0 pl-md-0">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574255/ice.webp?w=397&h=265&l=0&t=0&f=d15de0a3ad12d9c448fdb4fcd462dadf">
+					</figure>
+					<h2><a href="https://www.newsweek.com/aclu-sues-ice-release-immigrant-detainees-who-are-vulnerable-coronavirus-1492586">ACLU Sues ICE for Release of Immigrant Detainees Vulnerable to Coronavirus</a></h2>
+					<p>"People who are at risk of illness or death from COVID-19 should be released," said ACLU senior staff attorney Eunice Cho.</p>
+				</article>
+				<article class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<figure class="col-sm-12 col-xs-12 pr-md-0 pl-md-0 ">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574234/mantis-geoglyph.webp?w=397&h=265&l=42&t=46&f=d6ec52aca67d1d8810c31f7fb4030c77">
+					</figure>
+					<h2><a href="https://www.newsweek.com/ancient-petroglyph-creature-that-half-man-half-mantis-discovered-iran-1492573">Ancient Petroglyph of Creature That Is Half Man Half Mantis Discovered </a></h2>
+					<p>The rock art was found in the central Markazi Province and appears to depict a praying mantis and a squatting man.</p>
+				</article>
+				<article class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+				 	<figure class="col-sm-12 col-xs-12 pr-md-0 pl-md-0">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574200/donovan-mitchell-utah-jazz.webp?w=397&h=265&f=fa8071401c97d0f5533d8ba678c654d6">
+					</figure>
+					<h2><a href="https://www.newsweek.com/donovan-mitchell-utah-jazz-covid-19-scariest-part-coronavirus-outbreak-1492548">Donovan Mitchell Reveals 'Scariest Part' of COVID-19 After Testing Positive</a></h2>
+					<p>Mitchell became the second NBA player to test positive for COVID-19 after teammate Rudy Gobert last week.</p>
+				</article>
+				<article class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<figure class="col-sm-12 col-xs-12 pr-md-0 pl-md-0">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574131/crowds-magic-kingdom-leave-great-granddaughter-disney-dumbfounded.webp?w=397&h=265&f=e7a30cc83df36bc7bf4c2732db2caec6">
+					</figure>
+					<h2><a href="https://www.newsweek.com/disney-parks-world-land-coronavirus-1492560">Granddaughter of Disney Co-Founder Dumbfounded After Crowds Gather at Park</a></h2>
+					<p>"Are you f**king kidding me??" Abigail Disney wrote on Twitter on Monday, responding to photos of a crowded Disney World.</p>
+				</article>
+				<article class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<figure class="col-sm-12 col-xs-12 pr-md-0 pl-md-0">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574041/covid-19-coronavirus-france-getty.webp?w=397&h=265&f=518b8b22ba27377bee507080cdccc2d9">
+					</figure>
+					<h2><a href="https://www.newsweek.com/testing-coronavirus-cure-set-start-australia-weeks-first-participant-us-vaccine-trial-due-1492437">Testing of COVID-19 'Cure' Starting in Weeks, Vaccine Trial Underway</a></h2>
+					<p>There is currently no vaccine or treatment available for the virus which has killed over 6,500 people according to Johns Hopkins University.</p>
+				</article>
+				<article class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<figure class="col-sm-12 col-xs-12 pr-md-0 pl-md-0">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574088/baby-mother-pregnancy-stock-getty.webp?w=397&h=265&f=cc56fa93241942ce71006e69286faec9">
+					</figure>
+					<h2><a href="https://www.newsweek.com/coronavirus-passed-mothers-babies-labour-study-1492482">Coronavirus Can't Be Passed From Mothers to Babies During Labor: Study</a></h2>
+					<p>There is no evidence the virus can be passed on during pregnancy or in breastmilk, according to The Royal College of Obstetricians and Gynaecologists.</p>
+				</article>
+				<article class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<figure class="col-sm-12 col-xs-12 pr-md-0 pl-md-0">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574076/mitch-mcconnell.webp?w=397&h=265&f=6c2c2d0655386621007ee04eac6dbd24">
+					</figure>
+					<h2><a href="https://www.newsweek.com/mitch-mcconnell-criticized-calling-coronavirus-bill-urgent-priority-after-leaving-d-c-weekend-1492469">McConnell Slammed for Calling Coronavirus Bill 'Urgent' After Leaving D.C.</a></h2>
+					<p>"Oh cool, you're back from your three day weekend?" said commentator Chris Hayes.</p>
+				</article>
+				<article class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<figure class="col-sm-12 col-xs-12 pr-md-0 pl-md-0">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574057/nba-coronavirus.webp?w=397&h=265&f=b3844decdabd79ab8b216778abb2dd26">
+					</figure>
+					<h2><a href="https://www.newsweek.com/nbareturn-date-coronavirus-june-season-1492448">NBA Season Could Be On Hold Until June Following CDC Recommendation</a></h2>
+					<p>The CDC on Sunday recommended events with more than 50 people to be canceled or postponed for at least eight weeks.</p>
+				</article>
+			</section>
+			<!-- End Editors Pick sec -->
+			<!-- Start Feat Slideshows sec -->
+			<section class="row sec">
+				<div class="text-center col-12 d-flex justify-content-center sec-heading  mb-3 mt-3">
+					<span class="icon-n mt-1 mr-1">
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." src="https://g.newsweek.com/www/images/logo-n1.svg">
+					</span>
+					<h4 class="mt-2 ml-2">Featured Slideshow</h4>
+				</div>
+				<article class="col-md-4 col-sm-12 col-xs-12">
+					<figure>
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.webp?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d">
+					</figure>
+					<h2><a href="https://www.newsweek.com/relive-star-wars-saga-these-filming-locations-space-themed-destinations-1479907">Relive the 'Star Wars' Saga at These Filming Locations</a></h2>
+				</article>
+				<article class="col-md-4 col-sm-12 col-xs-12">
+					<figure>
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1552749/eyjafjallajokull-iceland.webp?w=397&h=265&f=ea1ffc67b32c527ef435529cb5bd2dc6">
+					</figure>
+					<h2><a href="https://www.newsweek.com/active-volcanoes-around-world-that-could-erupt-any-moment-1476812">Active Volcanoes Around the World That Could Erupt at Any Moment</a></h2>
+				</article>
+				<article class="col-md-4 col-sm-12 col-xs-12">
+					<figure>
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1547486/lipschutz-living-room-hotel-chelsea.webp?w=397&h=265&f=fb4270bf5fbc2591cc43d24d0377621d">
+					</figure>
+					<h2><a href="https://www.newsweek.com/inside-last-bohemian-apartments-manhattans-storied-hotel-chelsea-1473094">Inside the Last Bohemian Apartments of the Storied Hotel Chelsea</a></h2>
+				</article>
+				<article class="col-md-4 col-sm-12 col-xs-12">
+					<figure>
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1521879/muir-pass-great-alone.webp?w=397&h=265&f=f340356025a2be1523d3102736a02f42">
+					</figure>
+					<h2><a href="https://www.newsweek.com/great-alone-walking-pacific-crest-trail-1455473">The Great Alone: Walking the Pacific Crest Trail</a></h2>
+				</article>
+				<article class="col-md-4 col-sm-12 col-xs-12">
+					<figure>
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1521628/galapagos-cerro-brujo.webp?w=397&h=265&f=238784ea0ecb17e5186615dc6c87822e">
+					</figure>
+					<h2><a href="https://www.newsweek.com/cruise-galapagos-while-conserving-wildlife-found-no-where-else-1455238">Cruise the Galapagos While Conserving Wildlife Found Nowhere Else </a></h2>
+				</article>
+				<article class="col-md-4 col-sm-12 col-xs-12">
+					<figure>
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1521293/still-2-eop.webp?w=397&h=265&f=c18000449d44d36619eba01997038aec">
+					</figure>
+					<h2><a href="https://www.newsweek.com/cruise-galapagos-while-conserving-wildlife-found-no-where-else-1455238">The New Documentary Trying to Save the Most Trafficked Mammals in the World</a></h2>
+				</article>
+			</section>
+			<!-- End Feat Slideshows sec -->
+			<!-- Start U.S. sec -->
+			<section class="row">
+				<h6 class="col-sm-12 col-xs-12 red">U.S.</h6>
+				<article class="col-md-4 col-sm-12 col-xs-12">
+					<figure>
+						<img class="w-100" src="https://d.newsweek.com/en/full/1574249/ned-lamont.webp?w=397&h=265&f=5e1765ba34a3c5808f71b0efeb8d09aa" alt="Connecticut governor giving speach.">
+					</figure>
+					<h2><a href="https://www.newsweek.com/connecticut-governor-warns-us-isnt-close-dealing-coronavirus-effectively-were-catching-1492583">Connecticut Governor Warns U.S. Isn't 'Close' to Dealing With Coronavirus</a></h2>
+				</article>
+				<article class="col-md-4 col-sm-12 col-xs-12">
+					<figure>
+						<img class="w-100" src="https://d.newsweek.com/en/full/1574139/coronavirus-covid-19-united-states-statista.webp?w=397&h=265&f=710d694d9846843f47900a7d44f566be" alt="US map">
+					</figure>
+					<h2><a href="https://www.newsweek.com/cdc-coronavirus-advice-keeping-restaurants-commercial-venues-safe-covid-19-1492575">CDC Coronavirus Advice for Keeping Restaurants Safe From COVID-19</a></h2>
+				</article>
+				<section class="col-md-4 section-list pr-md-0 pl-md-0">
+					<h6 class="clip">List of additional articles.</h6>
+					<article class="row xs-list-2">
+						<figure class="col-lg-3 col-md-4 col-sm-2">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574163/coronavirus-covid-19-cases-recoveries-statista.webp?w=95&h=95&f=177c78f09c06f22877d7d79307e8cbe4">
+						</figure>
+						<header class="col-lg-9 col-md-8 col-sm-10">
+							<a href="https://www.newsweek.com/us-coronavirus-update-death-toll-hits-69-virus-spreads-49-states-more-deaths-new-york-1492552">
+								<h6>U.S. Coronavirus Death Toll Hits 69 As Virus Spreads to 49 States</h6>
+							</a>
+						</header>
+					</article>
+					<article class="row xs-list-2">
+						<figure class="col-lg-3 col-md-4 col-sm-2">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574218/coronavirus-new-york-alcohol-take-out-restaurants.webp?w=95&h=95&f=35f1576228f46dc6f28b8c1d37826809">
+						</figure>
+						<header class="col-lg-9 col-md-8 col-sm-10">
+							<a href="https://www.newsweek.com/us-coronavirus-update-death-toll-hits-69-virus-spreads-49-states-more-deaths-new-york-1492552">
+								<h6>NYS Allowing Takeout Alcohol to Help Bars, Restaurants During Shutdowns</h6>
+							</a>
+						</header>
+					</article>
+					<article class="row xs-list-2">
+						<figure class="col-lg-3 col-md-4 col-sm-2">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574210/noaa-hawaii-forecast.webp?w=95&h=95&f=3efb99c93d78ebc0ef40c8786ecef0c1">
+						</figure>
+						<header class="col-lg-9 col-md-8 col-sm-10">
+							<a href="https://d.newsweek.com/en/full/1574210/noaa-hawaii-forecast.webp?w=95&h=95&f=3efb99c93d78ebc0ef40c8786ecef0c1">
+								<h6>Hawaii Braces for Flash Flooding, Thunderstorms and Dangerous Lightning</h6>
+							</a>
+						</header>
+					</article>
+				</section>
+			</section>
+			<!-- End U.S. sec -->
+			<!-- Start World sec -->
+			<section class="row">
+				<h6 class="col-sm-12 col-xs-12 red"><span class="icon-n"></span>World</h6>
+				<article class="col-md-4 col-sm-12 col-xs-12">
+					<h6 class="clip">List of additional articles.</h6>
+					<figure>
+						<img class="w-100" src="https://d.newsweek.com/en/full/1574096/ninot-valencia-spain-march-2020.webp?w=397&h=265&f=b22c81e0d94c54e29c79b7987bae735a" alt="Statue with face mask.">
+					</figure>
+					<h2><a href="https://www.newsweek.com/coronavirus-update-map-shows-169000-cases-worldwide-nearly-6500-deaths-more-77000-have-1492488">More Than 169,000 COVID-19 Cases Confirmed Globally, With 77,000 Recoveries</a></h2>
+				</article>
+				<article class="col-md-4 col-sm-12 col-xs-12">
+					<figure>
+						<img class="w-100" src="https://d.newsweek.com/en/full/1574101/cannabis.webp?w=397&h=265&f=81db6787a52b8005f07c6f3130e5a606" alt="US map">
+					</figure>
+					<h2><a href="https://www.newsweek.com/netherlands-coronavirus-lockdown-coffee-shops-weed-cannabis-drugs-social-media-twitter-1492494">In Netherlands, Lines Outside Marijuana Coffee Shops Ahead of Lockdown</a></h2>
+				</article>
+				<section class="col-md-4 section-list pr-md-0 pl-md-0">
+					<h6 class="clip">List of additional articles.</h6>
+					<article class="row xs-list-2">
+						<figure class="col-lg-3 col-md-4 col-sm-2">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574023/donald-trump-angela-merkel.webp?w=95&h=95&f=8c7299cf1e41afa61914667f48c0c89e">
+						</figure>
+						<header class="col-lg-9 col-md-8 col-sm-10 col-sm-2">
+							<a href="https://www.newsweek.com/donald-trump-tried-convince-german-scientists-make-coronavirus-vaccine-only-united-states-1492416">
+								<h6>Trump Wanted German Coronavirus Vaccine 'Only for' the U.S.: Report</h6>
+							</a>
+						</header>
+					</article>
+					<article class="row xs-list-2">
+						<figure class="col-lg-3 col-md-4 col-sm-2">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1573291/travellers-paris-airport.webp?w=95&h=95&f=a751ff8677a4e79edbe6b2f16b813805">
+						</figure>
+						<header class="col-lg-9 col-md-8 col-sm-10">
+							<a href="https://www.newsweek.com/coronavirus-us-adds-uk-ireland-european-travel-ban-1492340">
+								<h6>Coronavirus: U.S. Adds U.K., Ireland to European Travel Ban</h6>
+							</a>
+						</header>
+					</article>
+					<article class="row xs-list-2">
+						<figure class="col-lg-3 col-md-4 col-sm-2">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1573945/patients-queue-wuhan-hospital.webp?w=95&h=95&f=ac74057c34063aa10cf586553587102a">
+						</figure>
+						<header class="col-lg-9 col-md-8 col-sm-10">
+							<a href="https://d.newsweek.com/en/full/1573945/patients-queue-wuhan-hospital.webp?w=95&h=95&f=ac74057c34063aa10cf586553587102a">
+								<h6>China Traces Coronavirus to First Confirmed Case: Report</h6>
+							</a>
+						</header>
+					</article>
+				</section>
+			</section>
+			<!-- End World sec -->
+			<!-- Start Tech & Science sec -->
+			<section class="row">
+				<h6 class="col-sm-12 col-xs-12 red"><span class="icon-n"></span>Tech & Science</h6>
+				<article class="col-md-4 col-sm-12 col-xs-12">
+					<figure>
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1551927/child-pornography-arrests-cybercrime.webp?w=397&h=265&f=62634c0f3d3c2584d56c455bef33e22a">
+					</figure>
+					<h2><a href="https://d.newsweek.com/en/full/1551927/child-pornography-arrests-cybercrime.webp?w=397&h=265&f=62634c0f3d3c2584d56c455bef33e22a">Coronavirus Sparks Rise in Cybercrime From Foreign Agents</a></h2>
+				</article>
+				<article class="col-md-4 col-sm-12 col-xs-12">
+					<figure>
+						<img class="w-100" src="https://d.newsweek.com/en/full/1574093/man-riding-subway-wearing-mask.webp?w=397&h=265&l=0&t=0&f=ad0a6571e59caced16f2da79945ec5e0" alt="US map">
+					</figure>
+					<h2><a href="https://www.newsweek.com/coronavirus-survive-plastic-cardboard-air-1492489">This Is How Long Coronavirus Can Survive on Surfaces and in the Air</a></h2>
+				</article>
+				<section class="col-md-4 section-list pr-md-0 pl-md-0">
+					<h6 class="clip">List of additional articles.</h6>
+					<article class="row xs-list-2">
+						<figure class="col-lg-3 col-md-4 col-sm-2">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574071/cape-fur-seal.webp?w=95&h=95&f=8f6721ea99f3bb6c9b73676a50d56129">
+						</figure>
+						<header class="col-lg-9 col-md-8 col-sm-10 col-sm-2">
+							<a href="https://www.newsweek.com/dwarf-sperm-whale-ink-squid-sea-video-1492454">
+								<h6>Dwarf Sperm Whale Ejects Ink Like a Squid As It Flees Aggressive Seal</h6>
+							</a>
+						</header>
+					</article>
+					<article class="row xs-list-2">
+						<figure class="col-lg-3 col-md-4 col-sm-2">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1573469/pi-day-pies.webp?w=95&h=95&f=c8dc92c075e8841916613d573e8ba759">
+						</figure>
+						<header class="col-lg-9 col-md-8 col-sm-10">
+							<a href="https://www.newsweek.com/pi-day-memes-jokes-puns-march-14-pie-math-facts-circle-circumference-diameter-1491998">
+								<h6>More Than 3.14 Pi Day Memes, Jokes, Puns That Are Funnier Than Math Class</h6>
+							</a>
+						</header>
+					</article>
+					<article class="row xs-list-2">
+						<figure class="col-lg-3 col-md-4 col-sm-2">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1573786/mexico-ancient-ballcourts.webp?w=95&h=95&f=0823fa3cf76ab757c7c8111508a6abb9">
+						</figure>
+						<header class="col-lg-9 col-md-8 col-sm-10">
+							<a href="https://www.newsweek.com/researchers-3400-year-old-ballcourt-mexican-highlands-1492225">
+								<h6>Researchers Discover 3,400-year-old Ballcourt in Mexican Highlands</h6>
+							</a>
+						</header>
+					</article>
+				</section>
+			</section>
+			<!-- End Tech & Science sec -->
+			<!-- Start Culture sec -->
+			<section class="row">
+				<h6 class="col-sm-12 col-xs-12 red"><span class="icon-n"></span>Culture</h6>
+				<article class="col-md-4 col-sm-12 col-xs-12">
+					<figure>
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574279/roses.webp?w=397&h=265&f=28a9b7fd9add14112c86da65088cc31d">
+					</figure>
+					<h2><a href="https://www.newsweek.com/romantic-senior-woos-his-wife-outside-her-hospital-window-wont-let-coronavirus-come-between-them-1492609">Senior Woos His Wife Outside Her Hospital Window Despite Coronavirus Fears</a></h2>
+				</article>
+				<article class="col-md-4 col-sm-12 col-xs-12">
+					<figure>
+						<img class="w-100" src="https://d.newsweek.com/en/full/1574267/no-marshall-law-isnt-eminems-new-album-heres-why-its-trending.webp?w=397&h=265&f=20f33fd6e4ad278c8af72dff844af4c5" alt="US map">
+					</figure>
+					<h2><a href="https://www.newsweek.com/marshall-martial-law-eminem-album-marco-rubio-1492606">No, 'Marshall Law' Isn't Eminem's New Album, Here's Why It's Trending</a></h2>
+				</article>
+				<section class="col-md-4 pr-md-0 pl-md-0 section-list">
+					<h6 class="clip">List of additional articles.</h6>
+					<article class="row xs-list-2">
+						<figure class="col-lg-3 col-md-4 col-sm-2">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574093/man-riding-subway-wearing-mask.webp?w=95&h=95&l=0&t=0&f=ef576624c65e04857b80b739d5ee5f94">
+						</figure>
+						<header class="col-lg-9 col-md-8 col-sm-10">
+							<a href="https://www.newsweek.com/staythefkhome-movement-just-wants-you-well-you-know-1492581">
+								<h6>The #StayTheF***kHome Movement Just Wants You To, Well, You Know</h6>
+							</a>
+						</header>
+					</article>
+					<article class="row xs-list-2">
+						<figure class="col-lg-3 col-md-4 col-sm-2">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574248/work-home.webp?w=95&h=95&f=b13f3dc573eef384a64c73ada4d03822">
+						</figure>
+						<header class="col-lg-9 col-md-8 col-sm-10">
+							<a href="https://www.newsweek.com/five-reasons-all-your-work-home-conference-calls-are-so-utterly-cringeworthy-1492580">
+								<h6>Five Reasons Your Work-From-Home Digital Meetings Are So Cringeworthy</h6>
+							</a>
+						</header>
+					</article>
+					<article class="row xs-list-2">
+						<figure class="col-lg-3 col-md-4 col-sm-2">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574224/charles-lindbergh.webp?w=95&h=95&f=fd6a2c6fc1c67a0b41f1a480238f18c9">
+						</figure>
+						<header class="col-lg-9 col-md-8 col-sm-10">
+							<a href="https://www.newsweek.com/plot-against-america-hbo-true-story-charles-lindbergh-america-first-racist-facist-1492569">
+								<h6>'The Plot Against America': The True Stories Behind the HBO Series</h6>
+							</a>
+						</header>
+					</article>
+				</section>
+			</section>
+			<!-- End Culture sec -->
+			<!-- Start Sports sec -->
+			<section class="row">
+				<h6 class="col-sm-12 col-xs-12 red"><span class="icon-n"></span>Sports</h6>
+				<article class="col-md-4 col-sm-12 col-xs-12">
+					<figure>
+						<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574316/wwe-monday-night-raw-steve-austin.webp?w=397&h=265&f=fa2a93c4a93d50f0a2f61597153a3a05">
+					</figure>
+					<h2><a href="https://www.newsweek.com/wwe-monday-night-raw-results-march-16-stone-cold-steve-austin-1492634">WWE Monday Night RAW Results: 'Stone Cold' Steve Austin to Return Tonight</a></h2>
+				</article>
+				<article class="col-md-4 col-sm-12 col-xs-12">
+					<figure>
+						<img class="w-100" src="https://d.newsweek.com/en/full/1574304/wrestlemania-36-logo.webp?w=397&h=265&f=246cd32fcb764a4855b8dbe95bb970a8" alt="US map">
+					</figure>
+					<h2><a href="https://www.newsweek.com/wwe-wrestlemania-36-2020-moved-canceled-coronavirus-performance-center-orlando-1492625">WrestleMania 36 Moved to Performance Center</a></h2>
+				</article>
+				<section class="col-md-4 section-list pr-md-0 pl-md-0">
+					<h6 class="clip">List of additional articles.</h6>
+					<article class="row xs-list-2">
+						<figure class="col-lg-3 col-md-4 col-sm-2">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574137/jadeveon-clowney-seattle-seahawks.webp?w=95&h=95&f=00585d3daee848ceedbb4f3742542b47">
+						</figure>
+						<header class="col-lg-9 col-md-8 col-sm-10">
+							<a href="https://www.newsweek.com/nfl-free-agency-tom-brady-top-free-agents-1492518">
+								<h6>NFL Free Agency Predictions: The Top 10 Players on the Market This Year</h6>
+							</a>
+						</header>
+					</article>
+					<article class="row xs-list-2">
+						<figure class="col-lg-3 col-md-4 col-sm-2">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1570671/tom-brady-new-england-patriots.webp?w=95&h=95&f=47dad7af0d7e379d530df25df4ebf52d">
+						</figure>
+						<header class="col-lg-9 col-md-8 col-sm-10">
+							<a href="https://www.newsweek.com/nfl-free-agency-explainer-date-deadline-tom-brady-1492471">
+								<h6>NFL Free Agency: Everything You Need to Know Ahead of This Week</h6>
+							</a>
+						</header>
+					</article>
+					<article class="row xs-list-2">
+						<figure class="col-lg-3 col-md-4 col-sm-2">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="w-100" src="https://d.newsweek.com/en/full/1574058/istock-marble-racing.webp?w=95&h=95&f=53636ec06d1a46aeec5d7ea9362ddd6b">
+						</figure>
+						<header class="col-lg-9 col-md-8 col-sm-10">
+							<a href="https://www.newsweek.com/marble-racing-trends-among-desperate-sports-fans-major-events-suspended-due-coronavirus-pandemic-1492436">
+								<h6>Marble Racing Trends Among Desperate Sports Fans as Major Events Suspended</h6>
+							</a>
+						</header>
+					</article>
+				</section>
+			</section>
+			<!-- End Sports sec -->
+			<!-- Start Call to Action sec -->
+			<section class="row">
+				<h6 class="clip">Subscribe or request our News Letter</h6>
+				<section class="col-lg-7 col-md-12">
+					<h5 class="red">Subscribe</h5>
+					<div class="row h-80 sub pt-3 pl-3 justify-content-sm-center justify-content-lg-start xs-rows">
+						<figure class="all-access col-lg-3 col-md-3 col-4 ml-4 col-sm-5 col-xs">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="col all-access-cover" src="https://d.newsweek.com/en/full/1574205/march-20-27-2020-cover.jpg?w=170&q=95&f=d09d4323d899b185262420c3499dcda8">
+						</figure>
+						<article class="col-lg-8 col-md-8 col mt-5 pr-4 col-sm-10 mt-lg-1">
+							<h5>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h5>
+							<p>All Access + Weekly Delivery. Choose A Membership That's Perfect for You!</p>
+							<button class="button">Subscribe</button>							
+						</article>
+					</div>
+				</section>
+				<section class="col-lg-5 col-md-12">
+					<h5 class="red">NewsLetter</h5>
+					<div class="row letter xs-rows lg-rows">
+						<figure class="col col-lg-1 col-md-3 col-sm-12 col-xs-12 pl-0 mb-0">
+							<img alt="News Week Article Photo - Your Browser Does Not Support File Type." class="disp-none-sm footer-subscribe" src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5">
+						</figure>
+						<article class="col col-lg-10 col-md-8 col-sm-12 mt-lg-0 mb-lg-2 pb-lg-1 mt-md-4 mb-md-4 pr-4 pb-sm-4 pt-sm-4 pt-xs-3">
+							<h5>The Starting 5</h5>
+							<p>Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
+							<button class="button">Sign Up</button>
+						</article>
+					</div>
+				</section>
+			</section>
+			<!-- End Footer form sec -->
+		</main>
+		<!-- Start Footer -->
+		<footer class="row pt-4 ml-0 mr-0">
+			<span class="col-sm-4 col-xs-4 col-lg-2 col-md-2 pl-4 pl-sm-4">
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background: new 0 0 395.6 60;" xml:space="preserve">
+					<g>
+						<path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+					</g>
+				</svg>
+			</span>
+			<span class="col-sm-12 col-xs-12 col-lg-2 col-md-3 mt-2 pl-sm-4 xs-padding">© 2020 Newsweek</span>
+			<figure class="col-sm-12 col-xs-12 col-lg-8 col-md-7 resp-align pr-4 pl-sm-4 xs-padding">
+				<a href="https://www.facebook.com/Newsweek">
+					<i class="fab pl-1 pr-1 fa-facebook-square"></i>
+				</a>
+				<a href="https://twitter.com/Newsweek">
+					<i class="fab pl-1 pr-1 fa-twitter"></i>
+				</a>
+				<a href="https://instagram.com/newsweek/">
+					<i class="fab pl-1 pr-1 fa-instagram"></i>
+				</a>
+				<a href="https://newsweekscience.tumblr.com/">
+					<i class="fab pl-1 pr-1 fa-tumblr"></i>
+				</a>
+				<a href="https://newsweekscience.tumblr.com/">
+					<i class="fab pl-1 pr-1 fa-linkedin-in"></i>
+				</a>
+			</figure>
+			
+			<nav class="site-map pl-4 pr-4 line-top">
+				
+				<ul class="nav">
+					<li class="nav-item">
+						<span>Editions:</span>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.newsweek.com/">U.S. Edition</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.newsweekjapan.jp/">日本</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="http://newsweekpakistan.com/">Pakistan</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.newsweek.pl/">Polska</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://newsweek.ro/">România</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="site-map pl-4 pr-4">
+				<ul class="nav">
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.newsweek.com/about-newsweek">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.newsweek.com/corrections">Corrections</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.newsweek.com/contact">Contact Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.newsweek.com/editorial-guidelines">Editorial Guidelines</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.newsweek.com/advertise">Advertise</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.newsweek.com/copyright">Copyright</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.newsweek.com/terms-service">Terms &amp; Conditions</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.newsweek.com/privacy-policy">Privacy Policy</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.newsweek.com/cookie-policy">Cookie Policy</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.newsweek.com/terms-sale">Terms of Sale</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.newsweek.com/archive">Archive</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.newsweek.com/announcements">Announcements</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Consent preferences</a>
+					</li>
+				</ul>
+			</nav>
+		</footer>
+		<!-- End Footer -->
+		<!-- Social icons from fontawesome -->
+	    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<!-- Bootstrap links JS -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</body>
+	
+</html>
